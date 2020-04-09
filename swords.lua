@@ -5,7 +5,7 @@ minetest.register_tool("edible_swords:sword_dango", {
 		full_punch_interval = 1,
 		max_drop_level=0,
 		groupcaps={
-			snappy={times={[2]=1.6, [3]=0.40}, uses=10, maxlevel=1},
+			snappy={times={[1]=1.90, [2]=0.90, [3]=0.30}, uses=40, maxlevel=3},
 		},
 		damage_groups = {fleshy=2},
 	},
@@ -21,7 +21,7 @@ minetest.register_tool("edible_swords:sword_cc", {
 		full_punch_interval = 1,
 		max_drop_level=0,
 		groupcaps={
-			snappy={times={[2]=1.6, [3]=0.40}, uses=10, maxlevel=1},
+			snappy={times={[1]=2.5, [2]=1.20, [3]=0.35}, uses=30, maxlevel=2},
 		},
 		damage_groups = {fleshy=2},
 	},
